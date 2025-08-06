@@ -1,3 +1,4 @@
 dataclasses-json==0.5.7
-requests==2.27.1
+requests==2.32.4
 iris-pex-embedded-python>=2.0.0
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
